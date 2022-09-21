@@ -6,7 +6,7 @@ import random
 def get_first_part_of_name(name):
 	premier_nom = name.split("-")
 	premier_nom = premier_nom[0].lower().capitalize()
-	return premier_nom
+	return "Bonjour, " + premier_nom
 
 def get_random_sentence(animals, adjectives, fruits):
 	animal = random.choice(animals)
